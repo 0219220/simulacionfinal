@@ -1,4 +1,4 @@
-﻿# simulacionfinal
+﻿# simulacionfinal: Instrucciones 
 1.- Download project
 2.-Open the terminal
 3.- At the height of “app.js”, enter “ node app.js”
