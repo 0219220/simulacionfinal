@@ -22,7 +22,7 @@ childPython.stderr.on('data', (data) => {
 });
 
 childPython.on('close', (code) => {
-  console.log(`child process exited with code: ${code}`);
+  //console.log(`child process exited with code: ${code}`);
 });
 
 const storage = multer.diskStorage({
@@ -55,7 +55,7 @@ app.post('/upload', upload.single("image"), (req, res) => {
 });
 
 app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+  console.log('app listening on port 3000!');
 });
 
 

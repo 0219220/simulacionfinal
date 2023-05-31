@@ -73,7 +73,7 @@ rectangles.enter()
 		.attr("text-anchor", "middle")
 		.attr("transform", "rotate(-90)")
 		.style("fill","black")
-		.text("Height (m)");
+		.text("Amount of Images in Collection");
 		
 
 		g.append("text")
@@ -84,7 +84,7 @@ rectangles.enter()
 		.attr("text-anchor", "middle")
 		.attr("transform", "rotate(-20)")
 		.style("fill","black")
-		.text("Worlds Tallest Buildings");
+		.text("Collections");
 
 }).catch((error)=>{
 	console.log(error);

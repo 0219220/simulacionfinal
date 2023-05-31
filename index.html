@@ -191,7 +191,6 @@
     <div class="container">
       <div class="row">
           <div id="chart-area"></div>
-          <p>Image 1</p>
       </div>
   </div>
 
@@ -200,34 +199,8 @@
     <script src="main.js">    
     </script>
 
-<div class="container">
-  <div class="row">
-      <div id="chart-area"></div>
-      <p>Image 1</p>
-  </div>
-</div>  
-    </div>  
-  </div>
-
 
 <div> <p>Upload your own image here: </p></div> 
-
-  <div id="userImageContainer"></div>
-
-  <form method = "POST" action="/upload" enctype="multipart/form-data">
-    <table class="table">
-        <tr>
-            <th>Select File</th>
-            <td>
-                <input type="file" name="image" />
-            </td>
-            <td>
-                <input type="submit" name="submit" class="btn btn-success" value="Upload Image" />
-            </td>
-        </tr>
-    </table>
-</form>
-
 
 <form method = "POST" action="/upload" enctype="multipart/form-data">
 <input type = "file" name = "image">
